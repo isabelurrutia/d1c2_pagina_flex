@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+}
+.menu{
+    background-color: brown;
+    width: 20vw;
+    height: 100vh;
+}
+.principal{
+    background-color: antiquewhite;
+    width: 80vw;
+    height: 100vh;
+}
