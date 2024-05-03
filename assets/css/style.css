@@ -1,13 +1,32 @@
+body{
+    font-family: roboto;
+    margin: 0;
+    padding: 0;
+}
 .container{
     display: flex;
+    margin: 0;
+    padding: 0;
 }
-.menu{
+menu{
     background-color: brown;
     width: 20vw;
     height: 100vh;
 }
-.principal{
-    background-color: antiquewhite;
+main{
+    font-family: roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
     width: 80vw;
-    height: 100vh;
+    height: 100vh;   
+    color:  #1b1f21
+    font-weight: lighter;
+}
+.logo{
+    max-width: 30%;
+    max-height: 30%;
+
 }
