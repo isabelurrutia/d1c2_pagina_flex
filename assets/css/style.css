@@ -2,10 +2,10 @@
 body{
     font-family: roboto;
     font-weight: lighter;
+    color:  #1b1f21
     }
 .container{
     display: flex;
-
 }
 /*de la pantalla de la derecha*/
 main{
@@ -17,9 +17,12 @@ main{
     background: #e8ebe4;;
     width: 80vw;
     height: 100vh;   
-    color:  #1b1f21
     margin: 0;
     padding: 0;
+}
+.t_principal{
+    line-height: 5px;
+    justify-content: center;
 }
 .logo{
     max-width: 30%;
@@ -33,40 +36,51 @@ menu{
     width: 20vw;
     height: 100vh;
 }
-.foto img{
-    display: flex;
-    justify-content: center;
+.img_usuarios {
     border-radius: 50%;
-    max-width: 20%;
-    max-height: 20%;
-    width: 50%;
+    max-width: 70%;
+    max-height: 100%;
+    border: 1px solid #bec1bb
 }
-.usuario1 {
+ul{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border: 1px solid #bec1bb;
-    height: 8vh; 
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+.ul2{
+    color: #bec1bb;
+    padding-left: 20%;
+    font-size: x-large;
+}
+.color{
+    color: #828485;
+}
+.color2{
+    color: #1b1f21;
 }
 .chat {
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid #bec1bb;
-    height: 16vh; 
+    height: 17vh; 
     }
 .boton{
     display: flex;
     justify-content: center;
     background-color: #a491d2;
     color: white;
-    height: 8vh;
+    height: 7vh;
     width: 15vw; 
 }
 .usuarios {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     border: 1px solid #bec1bb;
-    height: 9.5vh; 
+    height: 7vh; 
+    margin: 0;
+    padding-left: 10%;
+    padding-top: 4.5%;
 }
